@@ -16,6 +16,4 @@ public enum Forma {
 	public Integer getValor() {
 		return this.valor;
 	}
-	
-
 }

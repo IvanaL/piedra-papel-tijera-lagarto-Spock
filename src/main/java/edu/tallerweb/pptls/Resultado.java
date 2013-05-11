@@ -10,14 +10,14 @@ public enum Resultado {
 
 
 private Resultado(final Integer valor) {
-	this.valor= valor;
+	this.valor = valor;
 }
 
 public Integer getValor() {
 	return this.valor;
 }
 
-public void setValor(Integer valor) {
+public void setValor(final Integer valor) {
 	this.valor = valor;
 }
 }
